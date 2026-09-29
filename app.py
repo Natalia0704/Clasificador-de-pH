@@ -6,7 +6,7 @@ pH = st.number_input("pH",value=6.5)
 
 temperatura = st.number_input("Temperatura (°C)",value=23.0)
 if st.button("Evaluar"):
-   if pH<60 or pH>70:
+   if pH<6 or pH>7:
     st.write("revisar pH")
    else:
     st.write(" pH adecuado")
