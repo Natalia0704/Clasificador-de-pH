@@ -9,7 +9,7 @@ if st.button("Evaluar"):
    if pH<6 or pH>7:
     st.write("revisar pH")
    else:
-      st.write(" pH adecuado")
+       st.write(" pH adecuado")
    if temperatura < 20 or temperatura >25:
       st.write ("revisar temperatura")
   else:
