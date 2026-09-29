@@ -17,8 +17,7 @@ if st.button("Evaluar"):
         st.write("Revisar temperatura")
     else:
         st.write("Temperatura adecuada")
-      
-   st.sidebar.title("medidor de pH")
-   st.sidebar.write("Natalia Espino Valles")
-   st.sidebar.write("3-O")
-   st.sidebar.write("Facultad de ciencias Quimicas")
+st.sidebar.title("medidor de pH")
+st.sidebar.write("Natalia Espino Valles")
+st.sidebar.write("3-O")
+st.sidebar.write("Facultad de ciencias Quimicas")
