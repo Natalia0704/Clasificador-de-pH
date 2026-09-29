@@ -15,5 +15,6 @@ if st.button("Evaluar"):
    else:
       st.write("lote aceptable")
       
-   
+   st.sidebar.title("medidor de pH")
+   st.sidebar.write("Natalia Espino Valles")
 
